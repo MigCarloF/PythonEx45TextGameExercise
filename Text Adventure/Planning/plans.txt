@@ -1,0 +1,51 @@
+TITLE: Guacha wants his shaved ice
+Desc: Text based adventure
+
+
+Guacha is a thai gamer who needs to survive the heat of the tropical region by consuming one of his saving graces, shaved ice.
+On one hot summer day, he could no longer take it. His left pinky finger nail was melting and it was only a matter of time until
+his whole body would follow. He needed that shaved ice!
+
+In an attempt to seize his beloved desert, there is only one problem. All the ice in the world is melting!
+The evil Doctor Shamar is on the move to make the world a dilapidated sanctuary for anything frozen, let alone frozen treats!
+Everyone always knew she hated ice! But nobody ever predicted that she'd go as far as removing all ice from the face of humanity
+Join Guacha in an awe inspiring journey to gain possession of his cherished shaved ice before he meets the same fate as his coveted desert
+
+Storyline:
+-Guacha needs to leave his house, he needs to find a way out in limited moves before he melts! (Find ice bits along the way to extend time)
+-Guacha makes it to the mall to cool off. But the mall's generator was destroyed due to the heat! (Escape again lol)
+-Guacha falls into a sinkhole and somehow finds the lair of The Evil Doctor Shamar (Find the way to the heart of the lab)
+-Battle The Evil Doctor Shamar by answering the correct riddle (A direct attack to her partner's IQ, crippling her desire to push through with the plan)
+-Win
+
+
+Guacha
+Doctor Shamar
+Rooms
+Engine
+Map
+Scene
+Area
+Input (Perform)
+House
+Mall
+Lab
+
+* Player
+    perform()
+
+* Engine
+    - Player
+    - Scene
+    - Map
+    -
+    play()
+
+* Map
+    - Area{}
+
+* Scene
+    - (Events)
+    - Map
+
+*
