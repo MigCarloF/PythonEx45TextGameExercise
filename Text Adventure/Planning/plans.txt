@@ -39,13 +39,36 @@ Lab
     - Scene
     - Map
     -
-    play()
+    run()
+    play(2d_arr)
 
-* Map
-    - Area{}
+* SceneMap
+    - scenes{}
 
-* Scene
-    - (Events)
-    - Map
+* HouseScene
+    - area_map
+    enter()
+        // event
+        play(area_map)
+        // event
+        return "mall_scene"
 
-*
+* MallScene
+   - area_map
+    enter()
+        // event
+        play(area_map)
+        // event
+    return "lab_scene"
+
+* LabScene
+    - area_map
+    enter()
+        // event
+        play(area_map)
+        // event
+        return "win"
+
+* WinScene
+    enter()
+        //event

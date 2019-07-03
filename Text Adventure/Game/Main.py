@@ -1,18 +1,53 @@
-# Suppose this is foo.py.
+class Engine(object):
+    def run(self):
+        pass
 
-print("before import")
-import math
+    def play(self, area_map):
+        pass
 
-print("before functionA")
-def functionA():
-    print("Function A")
 
-print("before functionB")
-def functionB():
-    print("Function B {}".format(math.sqrt(100)))
+class Player(object):
+    def __init__(self):
+        pass
 
-print("before __name__ guard")
-if __name__ == '__main__':
-    functionA()
-    functionB()
-print("after __name__ guard")
+    def perform(self):
+        pass
+
+
+class SceneMap:
+    def __init__(self):
+        pass
+
+    def next_scene(self, scene_name):
+        pass
+
+    def opening_scene(self):
+        pass
+
+
+class HouseScene:
+    def __init__(self):
+        pass
+
+    def enter(self):
+        pass
+
+
+class MallScene:
+    def __init__(self):
+        pass
+
+    def enter(self):
+        pass
+
+
+class LabScene:
+    def __init__(self):
+        pass
+
+    def enter(self):
+        pass
+
+class WinScene:
+    def enter(self):
+        pass
