@@ -1,4 +1,5 @@
 import SceneMap, Engine
+from Scenes import Scene
 
 
 def main():
@@ -12,10 +13,8 @@ def game_start():
 
 
 def tests():
-    x = [[0, 0, 0], [0, 1, 0], [0, 0, 0]]
-
-    print x.index(1)
-
+    in1, in2 = Scene.Scene().index_2d([[0, 0, 1], [0, 0, 0]], 1)
+    assert in1 is 0 and in2 is 2
 
 if __name__ == "__main__":
     main()
