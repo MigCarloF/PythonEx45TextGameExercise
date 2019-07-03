@@ -1,5 +1,6 @@
 from Scenes import HouseScene, LabScene, MallScene, WinScene, DeathScene
 
+
 class SceneMap(object):
     scene_map = {
         'house': HouseScene.HouseScene(),

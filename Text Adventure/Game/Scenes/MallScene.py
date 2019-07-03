@@ -1,9 +1,9 @@
 import Scene
 
 
-class MallScene(Scene):
+class MallScene(Scene.Scene):
     def __init__(self):
-        pass
+        super(MallScene, self).__init__()
 
     def enter(self):
         pass
