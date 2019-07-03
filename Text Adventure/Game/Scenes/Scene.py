@@ -8,6 +8,7 @@ class Scene(object):
     # searches a 2d array for an item
     # returns the indexes
     def index_2d(self, array, item):
+
         for i in range(0, len(array)):
             try:
                 index2 = array[i].index(item)
