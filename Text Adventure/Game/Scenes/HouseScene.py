@@ -1,4 +1,7 @@
-class HouseScene(object):
+import Scene
+
+
+class HouseScene(Scene):
     def __init__(self):
         pass
 

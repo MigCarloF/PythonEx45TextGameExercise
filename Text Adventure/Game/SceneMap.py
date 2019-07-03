@@ -1,10 +1,12 @@
+from Scenes import HouseScene, LabScene, MallScene, WinScene, DeathScene
+
 class SceneMap(object):
     scene_map = {
-        'house': HouseScene(),
-        'mall': MallScene(),
-        'lab': LabScene(),
-        'win': WinScene(),
-        'death': DeathScene()
+        'house': HouseScene.HouseScene(),
+        'mall': MallScene.MallScene(),
+        'lab': LabScene.LabScene(),
+        'win': WinScene.WinScene(),
+        'death': DeathScene.DeathScene()
     }
 
     def __init__(self, start_scene):

@@ -1,4 +1,7 @@
-class MallScene(object):
+import Scene
+
+
+class MallScene(Scene):
     def __init__(self):
         pass
 
